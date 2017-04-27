@@ -79,7 +79,7 @@ region: us-east-1
 api keys:
   None
 endpoints:
-  GET - https://9e9lwn1901.execute-api.us-east-1.amazonaws.com/dev/vatNumber/isValid
+  GET - https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/vatNumber/isValid
 functions:
   vatChecker: aws-java-maven-dev-vatChecker
 ```

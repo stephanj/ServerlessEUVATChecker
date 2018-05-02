@@ -11,8 +11,8 @@ It is required to build prior to deploying. You can build the deployment artifac
 In order to build using Gradle simply run
 
 ```bash
-gradle wrapper # to build the gradle wrapper jar
-./gradlew build # to build the application jar
+$ gradle wrapper # to build the gradle wrapper jar
+$ ./gradlew build # to build the application jar
 ```
 
 The expected result should be similar to:
@@ -42,7 +42,7 @@ Total time: 8.195 secs
 In order to build using Maven simply run
 
 ```bash
-mvn clean package
+$ mvn clean package
 ```
 
 ## Deploy using Serverless
@@ -103,7 +103,7 @@ More details on Serverless @ https://serverless.com/framework/docs/getting-start
 You can now invoke the Lambda function directly and even see the resulting log via
 
 ```bash
-serverless invoke --function vatChecker --log
+$ serverless invoke --function vatChecker --log
 ```
 
 The expected result should be similar to:
@@ -128,7 +128,7 @@ REPORT RequestId: XXXXXXXXX	Duration: 165.92 ms	Billed Duration: 200 ms 	Memory 
 Finally you can send an HTTP request directly to the endpoint using a tool like curl
 
 ```bash
-curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/vatChecker?country=IE&number=63388047V
+$ curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/vatChecker?country=IE&number=63388047V
 ```
 
 The expected result should be similar to:

@@ -45,7 +45,7 @@ In order to build using Maven simply run
 mvn clean package
 ```
 
-## Deploy
+## Deploy using Serverless
 
 After having built the deployment artifact using Gradle or Maven as described above you can deploy by simply running
 
@@ -54,8 +54,20 @@ After having built the deployment artifact using Gradle or Maven as described ab
 npm install serverless -g
 ```
 
+Then, check the version to make sure you are using V1.16.0, or later:
+
 ```bash
-serverless deploy
+$ serverless -v
+```
+
+Login to the serverless platform (optional)
+
+```bash
+sls login
+```
+
+```bash
+sls deploy
 ```
 
 The expected result should be similar to:
@@ -83,6 +95,8 @@ endpoints:
 functions:
   vatChecker: aws-java-maven-dev-vatChecker
 ```
+
+More details on Serverless @ https://serverless.com/framework/docs/getting-started/ 
 
 ## Usage
 

@@ -63,11 +63,11 @@ $ serverless -v
 Login to the serverless platform (optional)
 
 ```bash
-sls login
+$ sls login
 ```
 
 ```bash
-sls deploy
+$ sls deploy
 ```
 
 The expected result should be similar to:

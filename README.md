@@ -47,7 +47,7 @@ $ mvn clean package
 
 ## Deploy using Serverless
 
-After having built the deployment artifact using Gradle or Maven as described above you can deploy by simply running
+After having built the deployment artifact using Gradle or Maven as described above you can deploy the serverless method running the following commands:
 
 ```bash
 # Install serverless globally

@@ -128,7 +128,7 @@ REPORT RequestId: XXXXXXXXX	Duration: 165.92 ms	Billed Duration: 200 ms 	Memory 
 Finally you can send an HTTP request directly to the endpoint using a tool like curl
 
 ```bash
-$ curl https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/vatChecker?country=IE&number=63388047V
+$ curl -X GET 'https://XXXXXXX.execute-api.us-east-1.amazonaws.com/dev/vatNumber/isValid?country=IE&number=63388047V'
 ```
 
 The expected result should be similar to:

@@ -140,3 +140,8 @@ The expected result should be similar to:
 "address": "3RD FLOOR ,GORDON HOUSE ,BARROW STREET ,DUBLIN 4"
 }
 ```
+
+## Function timouts
+
+Some VAT checks take can take between 6 and 10 seconds.  This means the default Lamba function timeout of 6 seconds should be increated to 10 seconds.
+

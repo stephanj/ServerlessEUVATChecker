@@ -143,5 +143,5 @@ The expected result should be similar to:
 
 ## Function timouts
 
-Some VAT checks take can take between 6 and 10 seconds.  This means the default Lamba function timeout of 6 seconds should be increated to 10 seconds.
+Some VAT checks can take between 6 and 10 seconds.  This means the default Lamba function timeout of 6 seconds should be increated to 10 seconds.
 
